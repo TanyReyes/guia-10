@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Eventos con JavaScript</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/eventos.css" />
+    <script type="text/javascript" src="js/eventos.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Uso de controles de formulario</h1>
+    </header>
+    <section>
+        <article>
+            <form action="javascript:void(0);" name="frmEjemplo">
+                <fieldset>
+                    <legend>Uso de controles de formulario</legend>
+                    <ul id="frmfechas">
+                        <li>
+                            <label for="txtfoco" class="fieldLabel">Haga clic en la caja de texto:</label>
+                            <input type="text" name="txtfoco" id="txtclick" placeholder="Haga clic aquí"
+                                class="formInputText" />
+                        </li>
+                        <li>
+                            <label for="txttecla" class="fieldLabel">Ingrese datos con el teclado:</label>
+                            <input type="text" name="txttecla" id="txtkey" placeholder="Ingrese un caracter"
+                                class="formInputText" />
+                        </li>
+                        <li>
+                            <label for="selopciones" class="fieldLabel">Seleccione una de las opciones: </label>
+                            <select name="selopciones" id="seloptions" class="seloptions">
+                                <option value="Primera opción">Primera opción</option>
+                                <option value="Segunda opción">Segunda opción</option>
+                                <option value="Tercera opción">Tercera opción</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div id="labelcheckboxes">
+                                <label for="chkcasillas" class="fieldLabel">Marque una o varias casillas:</label>
+                            </div>
+                            <div id="checkboxes">
+                                <input type="checkbox" name="chkcasillas" id="chkbox1" value="Primera casilla"
+                                    class="formInputCheck" />
+                                <span>Primera casilla</span><br />
+                                <input type="checkbox" name="chkcasillas" id="chkbox2" value="Segunda casilla"
+                                    class="formInputCheck" />
+                                <span>Segunda casilla</span><br />
+                                <input type="checkbox" name="chkcasillas" id="chkbox3" value="Tercera casilla"
+                                    class="formInputCheck" />
+                                <span>Tercera casilla</span>
+                            </div>
+                        </li>
+                        <li class="buttons">
+                            <input type="button" name="submit" id="submitbutton" value="Materia"
+                                class="formInputButton" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+</body>
+
+</html>
+</body>
+
+</html>
